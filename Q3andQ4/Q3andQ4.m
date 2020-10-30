@@ -29,10 +29,10 @@ for i=1:d
    end
     u11(i,1)=sum11/1000;
     u12(i,1)=sum12/1000;
-    u1=sum1/1000;
+    u1(i,1)=sum1/1000;
     u21(i,1)=sum21/n;
     u22(i,1)=sum22/n;
-    u2=sum2/n;
+    u2(i,1)=sum2/n;
 end                            
                                 %Finding Sample covariance matrices
  s11=zeros(d);s12=zeros(d);s1=zeros(d);s21=zeros(d);s22=zeros(d);s2=zeros(d);
